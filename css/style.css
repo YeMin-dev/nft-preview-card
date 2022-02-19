@@ -50,19 +50,21 @@ body {
   opacity: 0;
 }
 
-.img-container:hover .main-img {
+.img-container:hover .main-img,
+.img-container:active {
   opacity: 0.5;
 }
 
-.img-container:hover .view-icon {
+.img-container:hover .view-icon,
+.img-container:active {
   opacity: 1;
   cursor: pointer;
 }
 
-.img-container:hover {
+.img-container:hover,
+.img-container:active {
   cursor: pointer;
   background: hsl(178, 100%, 50%);
-  z-index: 3;
 }
 
 .title {
@@ -74,7 +76,8 @@ body {
   margin-bottom: 18px;
 }
 
-.title:hover {
+.title:hover,
+.title:active {
   color: var(--highlight-color);
   cursor: pointer;
 }
@@ -143,7 +146,8 @@ body {
   color: var(--white);
 }
 
-.footer .status-text a:hover {
+.footer .status-text a:hover,
+.footer .status-text a:active {
   color: var(--highlight-color);
   cursor: pointer;
 }
