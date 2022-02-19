@@ -50,19 +50,16 @@ body {
   opacity: 0;
 }
 
-.img-container:hover .main-img,
-.img-container:active {
+.img-container:hover .main-img {
   opacity: 0.5;
 }
 
-.img-container:hover .view-icon,
-.img-container:active {
+.img-container:hover .view-icon {
   opacity: 1;
   cursor: pointer;
 }
 
-.img-container:hover,
-.img-container:active {
+.img-container:hover {
   cursor: pointer;
   background: hsl(178, 100%, 50%);
 }
@@ -76,8 +73,7 @@ body {
   margin-bottom: 18px;
 }
 
-.title:hover,
-.title:active {
+.title:hover {
   color: var(--highlight-color);
   cursor: pointer;
 }
@@ -146,8 +142,7 @@ body {
   color: var(--white);
 }
 
-.footer .status-text a:hover,
-.footer .status-text a:active {
+.footer .status-text a:hover {
   color: var(--highlight-color);
   cursor: pointer;
 }
