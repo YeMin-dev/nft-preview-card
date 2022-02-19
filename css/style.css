@@ -39,6 +39,7 @@ body {
   width: inherit;
   border-radius: 15px;
   margin-bottom: 20px;
+  transition: opacity 0.5s;
 }
 
 .view-icon {
@@ -48,6 +49,7 @@ body {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   opacity: 0;
+  transition: opacity 0.5s;
 }
 
 .img-container:hover .main-img {
